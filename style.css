@@ -153,8 +153,11 @@ img{
 .info-content-message{
     display: flex;
     flex-direction: column;
+    align-items: start;
     gap: 8px;
     width: 65%;
+    font-size: 1rem;
+    padding-left: 16px;
 }
 
 .bg-gary{
@@ -200,8 +203,47 @@ img{
     padding-top: 16px;
 }
 
+.thesis{
+    padding-top: 32px;
+}
 
+.thesis-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+}
 
+.tsis-left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tsis-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tsis-topic{
+    text-align: center;
+}
+
+.tsis-item{
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.tsis-right-img{
+    width: 35%;
+}
+
+.tsis-right-message{
+    width: 65%;
+}
 
 footer{
     display: flex;
