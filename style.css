@@ -175,6 +175,15 @@ img{
     padding-left: 16px;
 }
 
+#t-color-blue{
+    color: rgb(55, 153, 214);
+}
+
+#t-color-blue-s{
+    color: rgb(55, 153, 214);
+    background-color: lightgray;
+}
+
 .bg-gary{
     background-color: lightgray;
 }
