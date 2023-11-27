@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+
+.nav-bar{
+    height: 64px;
+    display: flex;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-grow: 1;
+    justify-content: end;
+    padding-right: 24px;
+}
+
+.logo-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.logo-name{
+    font-size: larger;
+}
+
+.logo-name-gray{
+    color: gray;
+}
+
+footer{
+    display: flex;
+    align-items: start;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    height: 100px;
+    font-size: small;
+}
+
+.about-me-right{
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    gap: 16px;
+}
