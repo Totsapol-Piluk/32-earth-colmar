@@ -2,9 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: white;
+    background-color:white;
     font-family: 'Poppins', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .nav-bar{
@@ -47,10 +47,22 @@
 
 a{
      text-decoration: none; 
+     color: black;
+     font-size: small;
+}
+
+#button{
+    background-color:  rgb(54, 54, 54);
+    color: whitesmoke;
+    font-size: medium;
+}
+
+#button:hover{
+    font-size: large;
 }
 
 .nav-menu:hover{
-    font-size: large;
+    font-size: x-large;
 }
 
 .hero{
@@ -59,7 +71,6 @@ a{
 }
 
 .hero-container{
-    background-color: lightgray;
     width: 60%;
     padding-left:24px ;
     padding-right:24px ;
@@ -67,27 +78,99 @@ a{
     padding-bottom:32px ;
 }
 
-.banner{
+img{
     width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
 .text-banner{
     display: flex;
+    width: 40%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex-grow: 4;
+    align-items: start;
+    padding-left: 24px;
+    gap: 10px;
 }
+
+.message{
+    color: black;
+}
+
+.slogan{
+    color: rgba(0, 0, 0, 0.653);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#b-banner{
+    width: 300px;
+    padding: 8px;
+    height: 30;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    color: whitesmoke;
+    font-size: large;
+}
+
+.information{
+    display: flex;
+}
+
+.info-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.info-main{
+    object-fit: cover;
+    width: 100%;
+}
+
+.info-right{
+    width: 40%;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.info-content{
+    display: flex;
+    padding: 16px;
+
+}
+
+.info-content-img{
+    width: 35%;
+}
+.info-content-message{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.bg-gary{
+    background-color: lightgray;
+}
+
 
 footer{
     display: flex;
+    justify-content: end;
     align-items: start;
     padding-top: 16px;
     padding-right: 24px;
     padding-left: 24px;
     height: 100px;
     font-size: small;
+    border-top: 1px solid lightgray;
 }
 
 .about-me-right{
